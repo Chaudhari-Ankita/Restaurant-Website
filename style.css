@@ -1,0 +1,150 @@
+body{
+
+}
+h1{
+  text-align: center;
+  font-family: Brush Script MT;
+  letter-spacing: 1vw;
+  font-size: 3vw;
+  color: #fa0202;
+  background-color: #f5dadb;
+  margin-top: 0;
+}
+
+.flexcol1{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: row;
+  background-color: #f5dadb;
+}
+.flexcol1 div{
+  background-color: #fca4c4;
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  font-family: Lucida Handwriting;
+}
+.flexcol1 div:hover{
+  border-style: solid;
+  border-color: black;
+}
+
+.headimg{
+  height: 22em;
+  width:40em;
+  margin-top: 2em;
+}
+.head h2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Lucida Handwriting;
+  font-size: 3vw;
+  background-color: black;
+}
+.head p{
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: Lucida Handwriting;
+  font-size: 1.8vw;
+}
+.head{
+  position: absolute;
+}
+.flexcol2{
+  display: flex;
+  flex-direction: row;
+  background-color: #f5dadb;
+  margin-top: 2.2vw;
+  margin-left: 50%;
+  justify-content: flex-end;
+  height: %;
+}
+h4{
+  text-decoration: underline;
+}
+.flexcol2 div{
+  background-color: #fca4c4;
+  width: 30%;
+  margin: 2vw;
+  text-align: center;
+  line-height: 49px;
+  font-size: 20px;
+  font-family: Lucida Handwriting;
+}
+.tagline{
+  background-color: #fca4c4;
+  color:black;
+  text-align: center;
+  margin-top: 1em;
+  width:100%;
+  height:3.5vw;
+  padding-top: 1vw;
+  font-size: 2vw;
+  font-family: Lucida Handwriting;
+}
+.content{
+  background-color: #f5dadb;
+  border: solid black;
+  margin-top: 3vw;
+}
+.gallery {
+  width:15em;
+  height:8em;
+  margin-left: 3em;
+  margin-bottom: 1em;
+  border-color: black;
+  border: solid;
+  border-radius:0.5em;
+}
+.contentheading{
+  background-color: white;
+  padding-bottom: 1vw;
+  font-family: Lucida Handwriting;
+  margin-top: 0;
+  padding-top: 1vw;
+  background-color: #fca4c4;
+}
+.offerection{
+  background-color: #f5dadb;
+  font-family: Lucida Handwriting;
+  padding-bottom: 0.5vw;
+  line-height: 1.6vw;
+  margin-top: 3vw;
+}
+ .offerection .flexheading{
+   margin-top: 0;
+   padding-top: 1vw;
+   background-color: #fca4c4;
+ }
+
+footer{
+  background-color: #f5dadb;
+  text-align: center;
+  margin-top: 1vw;
+}
+.flexfooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: Lucida Handwriting;
+}
+.flexfooter h4{
+  color:#c20064;
+}
+h3{
+  line-height: 2vw;
+  font-family: Lucida Handwriting;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+a{
+  color:red;
+}
